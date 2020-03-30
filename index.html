@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+	<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+
+	<title>eReader</title>
+
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<!--Titlebar-->
+	<div class="titlebar">
+		<h1>eReader</h1>
+		<div class="undershade"></div>
+	</div>
+
+	<!--The whole texts shazam-->
+	<div class="texts-list">
+		<!--Texts Header-->
+		<div class="seperator"></div>
+		<div class="header">
+			<h2>Texts</h2>
+		</div>
+		<div class="seperator"></div>
+
+		<!--Text searching and adding-->
+		<div class="text-search-add">
+			<div class="text-add">
+				<button>-- Add text --</button>
+			</div>
+			<div class="text-search">
+				<input type="text" placeholder="Search texts..."></input>
+			</div>
+		</div>
+
+		<!--Texts-list-->
+		<ul id="texts-list">
+		</ul>
+	</div>
+
+	<!--Footer-->
+	<div class="footer">
+		<p>Valdemar Høgsvig Lorenzen &copy; 2020</p>
+	</div>
+
+	<script src="index.js"></script>
+</body>
+</html>
+

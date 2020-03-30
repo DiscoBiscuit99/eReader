@@ -1,0 +1,17 @@
+{
+  "name": "eReader",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-build-env neon build eReader --release",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Valdemar Lorenzen",
+  "license": "ISC"
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+	<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+
+	<title>Bowser</title>
+
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="text.css">
+	<script>window.$ = window.jQuery = require('jquery');</script>
+</head>
+<body>
+	<!--Titlebar-->
+	<div class="titlebar">
+		<a href="index.html">Go back</a>
+		<h1>eReader</h1>
+		<div class="undershade"></div>
+	</div>
+
+	<!--Title of text-->
+	<div id="title"> 
+		<h1>Title</h1>
+	</div>
+
+	<!--Body of text-->
+	<div id="body">
+	</div>
+
+	<script src="text.js"></script>
+</body>
+</html>
+
+
